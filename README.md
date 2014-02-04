@@ -1,4 +1,4 @@
-A protocols for cooperative governance over a member-owned, or distributed, possibly unowned, organization.
+A protocol for cooperative governance over a member-owned, or distributed, possibly unowned, organization.
 
 This is a naive example code to startup with, and the IRL test case for which this is being devised is a naturalized corporation in the US (which would iomplement these protocols into its by-laws).    
 
