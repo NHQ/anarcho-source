@@ -1,6 +1,6 @@
 A spec of protocols for cooperative governance over a member-owned, or distributed, possibly unowned, organization.
 
-This is a naive, hypothetical, example to startup with, and the IRL test case for which this is being devised is a naturalized corporation in the US (which would iomplement these protocols into its by-laws).    
+This is a naive, hypothetical, example to startup with, and the IRL test case for which it was devised is a naturalized corporation in the US (which would iomplement these protocols into its by-laws).    
 
 But the goal is to extract the protocols and encode them.  With protocols for proposing laws and amendments, and for for voting and delegation, any organization could make use of the resulting software to automate the anarchy.  
 
@@ -38,7 +38,7 @@ The experimental idea here is that investor-owners buy member-hours with their i
 
 __Member-hours__ are what member-workers recieve when they work for the body.  They are essentially shares in all dividends, and so it would not be unreasonable for some body to perform a buying back of member-hours, or for members to trade them.
 
-Going by hours is the obvious and naive approach, but when it comes down to it, all we is time.
+Going by hours is the obvious and naive approach, but when it comes down to it, all we are is time.
 
 ##Governance
 
