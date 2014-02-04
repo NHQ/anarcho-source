@@ -1,0 +1,98 @@
+# A rough draft of laws and remunaration patterns for member owned coorportion
+
+A system for cooperative governance over a distributed, or member-owned, organization.
+
+This is a naive example code to startup with.  Yet, with a protocol for proposing laws and amendments, and for voting and delegation, the organization is designed to adapt to its circumstances.
+
+##membership
+
+A founding group or individual creates a body.
+They are owner-members,
+New membership is voted on by current members.
+A membership may likewise be revoked.
+
+###owner-member
+
+Owner-members are the core of the body. 
+They may propose new laws and amendments, and vote or delegate on them.
+They may work member-hours. 
+(Or some other unit of work.)
+Member-hours are used to determine dividends.
+Owner-member may have their membership revoked by a voke, but they retain their stake in part of all future dividends, represenred  by their total member-hours.
+
+###investor-member
+
+It may be useful for a body to accept investment.  An investor-member may not vote.  Or they may, if the body determines it so.  But in this case, they do not.  
+
+The experimental idea here is that investor-owners buy member-hours with their investment. They then retain those member-hours exacly as member-owners do theirs, and are therefor paid member-like dividends.  See ```Remuneration``` for more steails. 
+
+###member-hours
+
+Member hours are what member-workers recieve when they work for the body.  They are essentially shares in all dividends, and so it would not be unreasonable for some body to perform a buying back of member-hours, or for members to trade them.
+
+Going by hours is the obvious and naive approach, but when it comes down to it, all we is time.
+
+##Governance
+
+Codes govern the body.  Governance is the creation and maintenance of codes.  This is done with a system for orchestration proposals, and votes.
+
+###codes
+codes are immutable.
+they must be removed from the system by the operation of another code.
+
+###proposals
+
+Proposals may be created any member-owner.  A proposal may be new, or a fork of another proposal.
+Members recieve notice of proposals.  They vote either to make it a proposition, or not.
+Or they fork the proposal and either try to have it merged, or create a new repro.
+If a proposal passes some mark, it becomes a proposal.
+
+###proposition
+
+Propositions should already have been edited through the proposal process, and they are now ready to be voted into the code.
+Members each set what they believe to the priority of the vote, like setPriority(howImportant, howSoon).
+
+#voting and delegation
+
+Only current owner-members may vote.  There may never be a reason to remove member-owners, or perhaps some have been removed, or removed themselves.
+Members may also delegate thier vote to another member.
+
+##Remuneration Patterns
+
+Given a periodic financial event.  After operating expenses are subtracted out of gross revenue, divvy the net into three groups:
+* operating hours
+* savings
+* members share
+
+__Operating hours__ are member-hours accrued by owner-members _during the given period_.  Presumably that covers everything to operate the body, or w/e work is orchestrated.  This share of the net would probably be the largest.  Divide the amount of this share by operating hours for the period, and remunerate those members according to each for their hours as percentage of the total.
+
+__Savings__ is some portion of the net that is set aside for future expenses.
+
+__Members share__ is some portion of the net that is split amongst all current and former member-owners and member-investors.  The amount for each is a division of the member share by total member-hours, ever, and paid to the holders of those hours accordingly.  This is where investors come in.  An investor who "bought" member-hours is paid dividends from this share.  Neatly, the value of investment would decrease over time, as it becomes a smaller percentage of the total hours.  
+
+example code:
+```js
+var gross = 20000
+var operatingExpenses = 5000
+var net = gross - operatingExpenses
+var operatingHours = getOperationHours(/* range */)
+var totalHours = getTotalMemberHours()
+var operatingLog = getOperatingLog(/* range */)
+var members = getMembers()
+
+var operations = .7
+var savings = .2
+var payBackTime = .1
+var perHour = (net * operating) / operatingLog.totalHours
+
+operatingLog.members.forEach(function(memberObject){
+  pay(memberObject.member, perHour * memberObject.operatingHours, function(bankErr, bling){})) 
+})
+
+// etc...
+```
+
+##Governance Protocols
+
+
+##Remuneration Patterns
