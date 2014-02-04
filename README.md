@@ -1,6 +1,8 @@
 A protocols for cooperative governance over a member-owned, or distributed, possibly unowned, organization.
 
-This is a naive example code to startup with.  Yet, with a protocol for proposing laws and amendments, and for voting and delegation, the organization is designed to adapt to its circumstances.
+This is a naive example code to startup with, and the IRL test case for which this is being devised is a naturalized corporation in the US (which would iomplement these protocols into its by-laws).    
+
+But the goal is to extract the protocols and encode them.  With a protocol for proposing laws and amendments, and for voting and delegation, any organization could make use of the resulting software.  
 
 ##membership
 
