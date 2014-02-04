@@ -1,4 +1,4 @@
-# A draft of protocols for member-owned coorportion
+## A draft of protocols 
 
 A system for cooperative governance over a member-owned, or distributed, possibly unowned, organization.
 
