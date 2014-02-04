@@ -14,7 +14,7 @@ A membership may likewise be revoked.
 
 ###owner-member
 
-Owner-members are the core of the body. 
+__Owner-members__ are the core of the body. 
 
 They may propose new laws and amendments, and vote or delegate on them.
 
@@ -22,19 +22,21 @@ They may work member-hours.
 
 (Or some other unit of work.)
 
-Member-hours are used to determine dividends.
+Member-hours are used to determine shares of income.
 
-Owner-member may have their membership revoked by a voke, but they retain their stake in part of all future dividends, represenred  by their total member-hours.
+Owner-member may have their membership revoked by a vote, but they retain their stake in portion of future income, called member shares, based on total number of member-hours the owner-member has accued.
 
 ###investor-member
 
-It may be useful for a body to accept investment.  An investor-member may not vote.  Or they may, if the body determines it so.  But in this case, they do not.  
+It may be useful for a body to accept investment.  It all about the terms.  
 
-The experimental idea here is that investor-owners buy member-hours with their investment. They then retain those member-hours exacly as member-owners do theirs, and are therefor paid member-like dividends.  See ```Remuneration``` for more steails. 
+An __investor-member__ may not vote.  Or they may, if the body determines it so procedurally.  But in this case, they do not.  
+
+The experimental idea here is that investor-owners buy member-hours with their investment. They then retain those member-hours exactly as member-owners do theirs, and are therefor paid member-like dividends.  See ```Remuneration``` for more steails. 
 
 ###member-hours
 
-Member hours are what member-workers recieve when they work for the body.  They are essentially shares in all dividends, and so it would not be unreasonable for some body to perform a buying back of member-hours, or for members to trade them.
+__Member-hours__ are what member-workers recieve when they work for the body.  They are essentially shares in all dividends, and so it would not be unreasonable for some body to perform a buying back of member-hours, or for members to trade them.
 
 Going by hours is the obvious and naive approach, but when it comes down to it, all we is time.
 
@@ -43,13 +45,13 @@ Going by hours is the obvious and naive approach, but when it comes down to it, 
 Codes govern the body.  Governance is the creation and maintenance of codes.  This is done with a system for orchestration proposals, and votes.
 
 ###codes
-Codes are immutable.
+__Codes__ are immutable.
 
 They must be removed from the system by the operation of another code.
 
 ###proposals
 
-Proposals may be created any member-owner.  A proposal may be new, or a fork of another proposal.
+__Proposals__ may be created any member-owner.  A proposal may be new, or a fork of another proposal.
 
 Members recieve notice of proposals.  They vote either to make it a proposition, or not.
 
@@ -59,7 +61,7 @@ If a proposal passes some mark, it becomes a proposal.
 
 ###proposition
 
-Propositions should already have been edited through the proposal process, and they are now ready to be voted into the code.
+__Propositions__ should already have been edited through the proposal process, and they are now ready to be voted into the code.
 
 Members each set what they believe to the priority of the vote, like setPriority(howImportant, howSoon).
 
