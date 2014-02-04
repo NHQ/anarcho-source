@@ -1,6 +1,4 @@
-## A draft of protocols 
-
-A system for cooperative governance over a member-owned, or distributed, possibly unowned, organization.
+A protocols for cooperative governance over a member-owned, or distributed, possibly unowned, organization.
 
 This is a naive example code to startup with.  Yet, with a protocol for proposing laws and amendments, and for voting and delegation, the organization is designed to adapt to its circumstances.
 
