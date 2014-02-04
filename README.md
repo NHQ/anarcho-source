@@ -1,23 +1,31 @@
-# A rough draft of laws and remunaration patterns for member owned coorportion
+# A draft of protocols for member-owned coorportion
 
-A system for cooperative governance over a distributed, or member-owned, organization.
+A system for cooperative governance over a member-owned, or distributed, possibly unowned, organization.
 
 This is a naive example code to startup with.  Yet, with a protocol for proposing laws and amendments, and for voting and delegation, the organization is designed to adapt to its circumstances.
 
 ##membership
 
 A founding group or individual creates a body.
-They are owner-members,
+
+They are owner-members.
+
 New membership is voted on by current members.
+
 A membership may likewise be revoked.
 
 ###owner-member
 
 Owner-members are the core of the body. 
+
 They may propose new laws and amendments, and vote or delegate on them.
+
 They may work member-hours. 
+
 (Or some other unit of work.)
+
 Member-hours are used to determine dividends.
+
 Owner-member may have their membership revoked by a voke, but they retain their stake in part of all future dividends, represenred  by their total member-hours.
 
 ###investor-member
@@ -37,19 +45,24 @@ Going by hours is the obvious and naive approach, but when it comes down to it, 
 Codes govern the body.  Governance is the creation and maintenance of codes.  This is done with a system for orchestration proposals, and votes.
 
 ###codes
-codes are immutable.
-they must be removed from the system by the operation of another code.
+Codes are immutable.
+
+They must be removed from the system by the operation of another code.
 
 ###proposals
 
 Proposals may be created any member-owner.  A proposal may be new, or a fork of another proposal.
+
 Members recieve notice of proposals.  They vote either to make it a proposition, or not.
+
 Or they fork the proposal and either try to have it merged, or create a new repro.
+
 If a proposal passes some mark, it becomes a proposal.
 
 ###proposition
 
 Propositions should already have been edited through the proposal process, and they are now ready to be voted into the code.
+
 Members each set what they believe to the priority of the vote, like setPriority(howImportant, howSoon).
 
 #voting and delegation
@@ -90,9 +103,3 @@ operatingLog.members.forEach(function(memberObject){
 })
 
 // etc...
-```
-
-##Governance Protocols
-
-
-##Remuneration Patterns
