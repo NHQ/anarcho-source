@@ -2,13 +2,11 @@ A protocol for cooperative governance over a member-owned, or distributed, possi
 
 This is a naive example code to startup with, and the IRL test case for which this is being devised is a naturalized corporation in the US (which would iomplement these protocols into its by-laws).    
 
-But the goal is to extract the protocols and encode them.  With a protocol for proposing laws and amendments, and for voting and delegation, any organization could make use of the resulting software.  
+But the goal is to extract the protocols and encode them.  With protocols for proposing laws and amendments, and for for voting and delegation, any organization could make use of the resulting software to automate the anarchy.  
 
 ##membership
 
-A founding group or individual creates a body.
-
-They are owner-members.
+A founding group or individual creates a body, and become the owner-member(s).
 
 New membership is voted on by current members.
 
